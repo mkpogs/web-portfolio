@@ -5,197 +5,260 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap CSS Link Start -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <!-- Bootstrap CSS Link End -->
+    <!-- Bootstrap CSS Link Start -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Bootstrap CSS Link End -->
+  
+    <!-- External CSS Link Start -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- External CSS Link End -->
 
-  <!-- External CSS Link Start -->
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <!-- External CSS Link End -->
+    <!-- FavIcon Start -->
+    <link rel="icon" type="image/x-icon" href="./images/mk-48.png">
+    <!-- FavIcon End -->
 
-  <title>MK Personal Porfolio</title>
+  <title>Document</title>
+  
 </head>
 <body>
+    <!-- ========== Navbar Section Start ========== -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#home">Mark Joseph Aspe</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <main>
-      <!-- ========== Home Start ========== -->
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-6 mt-3 mb-3 col-sm-12 col-md-6 order-2 order-md-2">
-            <img class="img-fluid rounded-circle" src="./images/landing_pic.jpg" alt="programmer_pic">
-          </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
 
-          <div class="mt-3 mb-3 col-sm-12 col-md-6 order-2 order-md-2">
-            <h5 class="text-orange">Hi I'm Mark Joseph Aspe</h5>
-            <h2 class="animate-charcter">Web Developer</h2>
-            <div></div>
-            <button type="button">Contact</button>
-          </div>
-        </div>
-      </div>        
-      <!-- ========== Home End ========== -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About Me</a>
+          </li>
 
-      <!-- ========== About Me Start ========== -->
-      <h1 class="text-center text-light">About Me</h1>
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-6 mt-3 mb-3 col-sm-12 col-md-6 order-2 order-md-2">
-            <img class="rounded-circle" src="./images/myProfilePic.jpg" alt="mypic" height="500px" width="400px">
-          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
 
-          <div class="mt-3 mb-3 col-sm-12 col-md-6 order-2 order-md-2 text-light">
-            <h5>
-              Mark Joseph Aspe is a <strong class="text-orange">passionate Web Developer</strong>. Right now I'm studying Full Stack Development at Zuitt to pursue a Career to become a Web Developer and I'm Currently working at Philhealth as an <strong>Adjudicator</strong>. 
-            </h5>
-          </div>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact Me</a>
+          </li>
+
+        </ul>
       </div>
-      <!-- ========== About Me End ========== -->
+    </nav>
+    <!-- ========== Navbar Section End ========== -->
 
-      <!-- ========== Projects Start ========== -->
-      <!-- Sample 1 Start -->
-      <div class="container-fluid">
-        <div class="row text-light">
-            <!-- E-Commerce Start-->
-            <div class="mt-3 mb-3 col-sm-12 col-md-4">
-                <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="container-fluid">
-                <h5 class="pt-1 pb-1">HTML</h5>
-                <p class="pt-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <!-- E-Commerce End -->
+    <!-- ========== Home Section Start ========== -->
+    <div class="container-fluid justify-content-center text-center">
+      <div id="home" class="row mt-3 justify-content-center align-items-center">
+        <!--  
+        <div class="col-12 col-md-6 order-2 order-md-1  text-center"></div>
+        -->
 
-            <!-- Bootstrap Card Start -->
-            <div class="mt-3 mb-3 col-sm-12 col-md-4">
-                <img src="https://labs.tadigital.com/wp-content/uploads/2020/03/MicrosoftTeams-image.png" class="container-fluid">
-                <h5 class="pt-1 pb-1">Bootstrap</h5>
-                <p class="pt-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <!-- Bootstrap Card End -->
+        <div class="p-3 col-12 col-md-4 order-2 order-md-1">
+          <h5 class="mt-5 mb-3 text-light">Hi I'm Mark Joseph Aspe</h5>
+          <h1 class="animate-charcter container-fluid">A Web Developer</h1>
 
-            <!-- Nose JS Server Card Start -->
-            <div class="mt-3 mb-3 col-sm-12 col-md-4">
-                <img src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png" class="container-fluid">
-                <h5 class="pt-1 pb-1">Node JS Server</h5>
-                <p class="pt-2 pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <!-- Node JS Server Card End -->
+          <div class="mt-3 mb-3">
+            <a href="https://www.facebook.com/kuplingz" target="_#blank">
+              <img src="./images/fb-32.png" class="pl-2 pr-2">
+            </a>
+      
+            <a href="https://www.linkedin.com/in/mark-joseph-aspe-3550ab247" target="_#blank">
+              <img src="./images/linkedin-32.png" class="pl-2 pr-2">
+            </a>
+      
+            <a href="https://ph.yahoo.com/?p=us" target="_#blank">
+              <img src="./images/yahoo-32.png" class="pl-2 pr-2">
+            </a>
+          </div>
+          <div></div>
+          <a href="#contact-me">
+            <button type="button" class="btn btn-outline-warning mt-3 mb-5">
+              Hire Me
+            </button>
+          </a>
         </div>
+
+        <div class="p-3 col-12 col-md-4 order-1 order-md-2 ">
+          <img class="mt-5 rounded-circle img-fluid" src="./images/landing2_pic.png" alt="mypic">
+        </div>
+
+      </div>
     </div>
-    <!-- Sample 1 End -->
-    
-      <!-- ========== Projects End ========== -->
+    <!-- ========== Home Section End ========== -->
 
-      <!-- ========== Contact Me Start ========== -->
-      <div class="container-fluid text-center">
-        <div class="row justify-content-center">
-          <div class="col-sm-12 col-md-8 col-xl-4 min-vh-100">
-            <div>
-              <!-- Contact Form Start -->
-              <h2 class="mt-5 mb-2 p5">Contact Me</h2>
-              <form class="bg-primary m-3 p-3"> 
-                  <div class="form-row">
-                    <!-- Name Input Start -->
-                    <div class="form-group col-12">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
-                    </div>
-                    <!-- Name Input End -->
-    
-                    <!-- Email Input Start -->
-                    <div class="form-group col-12">
-                        <label for="inputEmail">Email</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
-                    </div>
-                    <!-- Email Input End -->
-    
-                    <!-- Contact Number Input Start -->
-                    <div class="form-group col-12">
-                        <label for="inputContact">Contact Number</label>
-                        <input type="number" class="form-control" id="inputContact" placeholder="+63 900 000 0000" required>
-                    </div>
-                    <!-- Contact Number Input End -->
-    
-                    <!-- Quotation Dropdown Start -->
-                    <div class="form-group col-12">
-                        <label for="inputConcern">Concern</label>
-                        <select id="inputConcern" class="form-control" required>
-                          <option selected>Quotation</option>
-                          <option value="Front-End-Development">Front-End Development</option>
-                          <option value="Back-End-Development">Back-End Development</option>
-                          <option value="Full-Stack-Development">Full-Stack Development</option>
-                        </select>
-                    </div>
-                    <!-- Quotation DropDown End -->
+    <!-- ========== About Me Section Start ========== -->
+    <div class="container-fluid justify-content-center text-center">
+      <div id="about-me" class="row justify-content-center">
+        
+        <div class="mt-3 mb-3 p-3 col-12 col-md-4 order-2 order-md-2">
+            <img class="rounded-circle img-fluid" src="./images/myProfilePic2.png" alt="mypic">
+        </div>
 
-                    <!-- Message Input Start -->
-                    <div class="form-group col-12">
-                      <label for="Message">Message</label>
-                      <textarea id="inputMessage" class="form-control text-left" name="message" rows="6" cols="30" required>N/A if no comment
-                      </textarea>
-                    </div>
-                    <!-- Message Input End -->
+        <div class="mt-3 mb-3 col-12 col-md-4 order-2 order-md-2 text-light text-left">
+          <h2 class="mt-5 mb-3 p-3 text-center text-light">About Me</h2>  
+          <p>
+              Mark Joseph Aspe is a <strong class="text-orange">passionate Web Developer</strong>. Right now I'm studying Full Stack Development at Zuitt to pursue a Career to become a Web Developer and I'm Currently working at Philhealth as an <strong>Adjudicator</strong>. 
+            </p>
+        </div>
+
+      </div>
+    </div>
+    <!-- ========== About Me Section End ========== -->
+
+    <!-- ========== Projects Start ========== -->
+    <div id="projects" class="text-light min-vh-100 p-5">
+      <h2 class="mb-2 text-center">Projects</h2>
+      <div class="d-lg-flex justify-content-center p-md-5">
+
+          <!-- Restaurant Website Card Start -->
+          <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+              <div class="card-body">
+                  <img src="./images/restaurant-web.JPG" class="card-img-top" alt="Restaurant-Website">
+                  
+                  <h5 class="card-title mt-3">Restaurant Website</h5>
+                  <p class="card-text">
+                    A restaurant is a business that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.
+                  </p>
+                  <a href="#" class="card-link">Link To Project</a>
+              </div>
+          </div>
+          <!-- Restaurant Website Card End -->
+
+          <!-- E-Commerce Card Start -->
+          <div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+              <div class="card-body">
+                  <img src="./images/ecommerce-web.JPG" class="card-img-top" alt="ECommerce-Website">
+                  <h5 class="card-title mt-3">E-Commerce Website</h5>
+                  <p class="card-text">
+                    Ecommerce has helped online businesses reach a bigger market by providing affordable and efficient sales channels for their products and services. Corporations, independent freelancers, small businesses have all benefited from eCommerce, as have the customers worldwide who are now able to purchase from them 
+                  </p>
+                  <a href="#" class="card-link">Link To Project</a>
+              </div>
+          </div>
+          <!-- E-Commerce Card End -->
+
+          <!-- Hotel Booking Website Card Start -->
+          <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+              <div class="card-body">
+                  <img src="./images/hotel-booking-web.JPG" class="card-img-top" alt="Hotel-Booking-Website">
+                  <h5 class="card-title mt-3">Hotel Booking Website</h5>
+                  <p class="card-text">
+                    Hotel Booking System is online booking engine that allows guests to make secure online reservations through hotel website and helps hotels to accept bookings and collect payments online.
+                  </p>
+                  <p class="card-text">
+                    Hotel Booking System is complete hotel quotation booking system that comes with the key role of Hotel XML IN, Hotel XML Out, Hotel Channel Manager, Hotel Extranet and Own Contracting to help hotels to automate day-to-day hotel operations and increase bookings.
+                  </p>
+                  <a href="#" class="card-link">Link To Project</a>
+              </div>
+          </div>
+          <!-- Hotel Booking Website Card End -->
+      </div>
+    </div>
+    <!-- ========== Projects End ========== -->
+
+    <!-- ========== Contact Me Start ========== -->
+    <h2 class="mt-5 mb-2 p5 text-light text-center">Contact Me</h2>
+    <div class="container-fluid">
+      <div id="contact-me" class="row">
+        <!-- For Contact Form Start -->
+        <div class="col-12 col-md-6">
+          <div>
+            <!-- Contact Form Start -->
+            <form class="m-3 p-3 text-light text-center"> 
+                <div class="form-row">
+                  <!-- Name Input Start -->
+                  <div class="form-group col-12 text-left">
+                      <label for="inputName">Name</label>
+                      <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
                   </div>
-    
-                  <!-- Send Email Button Trigger Modal -->
-                  <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-dark m-3 p-3" data-toggle="modal" data-target="#exampleModal">
-                    Send Email
-                  </button>
-    
-                  <!-- Modal -->
-                  <div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          Message Succeefully Sent
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-                        </div>
+                  <!-- Name Input End -->
+
+                  <!-- Email Input Start -->
+                  <div class="form-group col-12 text-left">
+                      <label for="inputEmail">Email</label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
+                  </div>
+                  <!-- Email Input End -->
+
+                  <!-- Contact Number Input Start -->
+                  <div class="form-group col-12 text-left">
+                      <label for="inputContact">Contact Number</label>
+                      <input type="number" class="form-control" id="inputContact" placeholder="+63 900 000 0000" required>
+                  </div>
+                  <!-- Contact Number Input End -->
+
+                  <!-- Message Input Start -->
+                  <div class="form-group col-12 text-left">
+                    <label for="Subject">Subject</label>
+                    <textarea id="inputSUbject" class="form-control text-left" name="subject" rows="6" cols="30" required>N/A if no comment
+                    </textarea>
+                  </div>
+                  <!-- Message Input End -->
+                </div>
+
+                <!-- Send Email Button Trigger Modal -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark m-3 p-3" data-toggle="modal" data-target="#exampleModal">
+                  Send Email
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Message Succeefully Sent
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                       </div>
                     </div>
-                  </div>				
-               </form>
-               <!-- Contact Form End -->
-            </div>
+                  </div>
+                </div>				
+            </form>
+            <!-- Contact Form End -->
           </div>
         </div>
+
+        <!-- Google Map Start -->
+        <div class="col-12 col-md-5">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe class="m-3 p-3 container-fluid"  id="gmap_canvas" height="480" src="https://maps.google.com/maps?q=philand%20drive&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><a href="https://www.embedgooglemap.net"></a>
+              </div></div>
+        </div>
+        <!-- Google Map End -->
       </div>
-      <!-- ========== Contact Me End ========== -->
+    </div>
+    <!-- ========== Contact Me End ========== -->
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="p-2 bg-dark col-12 text-light text-center">
+            <p>
+              &copy; MK Portfolio. All Rights Reseved
+            </p>
+        </div>
+      </div>
+    </div>
+    
 
-      
 
-  </main>
-  
-
-
-
-
-
-  <!-- Bootstrap JS Dependencies Start -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-  <!-- Bootstrap JS Dependencies End -->
+    <!-- Bootstrap JS Dependencies Start -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Dependencies End -->
 </body>
 </html>

@@ -3,9 +3,7 @@
 /* Import Google Font End */
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
   font-family: 'Poppins', sans-serif;
 }
 
@@ -14,9 +12,10 @@ body{
 }
 
 /* ========== Home/Landing Style Start ========== */
-.span-para {
-  display: inline;
-  width: 50%;
+
+.landing-background{
+  background-image: url('./images/landing_pic1.jpg');
+  background-position: no-repeat;
 }
 
 .text-orange {
@@ -43,7 +42,6 @@ body{
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 65px;
 }
 
 @keyframes textclip {
@@ -52,71 +50,9 @@ body{
   }
 }
 
-/* ========== Home/Landing Style End ========== */
-
-.prof-pic{
-  background-image: url('./images/myProfilePic.jpg');
-  min-height: 200px;
-  min-width: 200px;
+/* Start of Footer */
+footer{
+	text-align: center;
+	padding-top: 1rem;
 }
-
-/* ========== Projects Start ========== */
-.contain{
-
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0px;
-  
-}
-
-.contain .box{
-
-  color: #fff;
-  background: #111;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 30px;
-  transition: 0.5s;
-}
-.contain .box:hover{
-  transform: translateY(-20px);
-}
-.contain .box::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg,#ffbc00, #ff0058);
-}
-.contain .box::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg,#ffbc00, #ff0058);
-  filter:blur(30px);
-}
-.contain .box:nth-child(2)::before, 
-.contain .box:nth-child(2)::before {
-  background: linear-gradient(315deg,#ffbc00, #ff0058);
-}
-.contain .box:nth-child(3)::before, 
-.container .box:nth-child(3)::before {
-  background: linear-gradient(315deg,#4dff03, #00d0ff);
-}
-contain .box span{
-  top: 6px;
-  left: 6px;
-  right: 6px;
-  background: #rgba(0,0,0,0,0.6);
-  z-index: 2;
-}
-
+/* End of Footer */
